@@ -63,24 +63,24 @@ form input.placeholder, form textarea.placeholder {
 
 /* for none-HTML5 browsers */
 input.required {
-    background: url("./asterisk.png") no-repeat scroll 280px 7px transparent;
+    background: url(/assets/html5form-shim/asterisk.png) no-repeat scroll 280px 7px transparent;
 }
 input:required {
-    background: url("./asterisk.png") no-repeat scroll 280px 7px transparent;
+    background: url(/assets/html5form-shim/asterisk.png) no-repeat scroll 280px 7px transparent;
 }
 /* for none-HTML5 browsers */
 input.valid {
-    background: url("./ok.png") no-repeat scroll 280px 7px transparent;
+    background: url(/assets/html5form-shim/ok.png) no-repeat scroll 280px 7px transparent;
 }
 input:valid {
-    background: url("./ok.png") no-repeat scroll 280px 7px transparent;
+    background: url(/assets/html5form-shim/ok.png) no-repeat scroll 280px 7px transparent;
 }
 /* for none-HTML5 browsers */
 input.invalid {
-    background: url("./fail.png") no-repeat scroll 280px 7px transparent;
+    background: url(/assets/html5form-shim/fail.png) no-repeat scroll 280px 7px transparent;
 }
 input:focus:invalid {
-    background: url("./fail.png") no-repeat scroll 280px 7px transparent;
+    background: url(/assets/html5form-shim/fail.png) no-repeat scroll 280px 7px transparent;
 }
 
 .tooltip { font-size: 10px; position: absolute; padding: 5px; z-index: 100000;  opacity: 0.8; filter:alpha(opacity:80); }

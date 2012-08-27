@@ -113,7 +113,7 @@
         width:20px;
         height:20px;
         outline:0px none;
-        background:transparent url(../images/slider/slider-disabled.png) no-repeat 0px 0px;
+        background:transparent url(/assets/html5forms/slider/slider-disabled.png) no-repeat 0px 0px;
         cursor:W-resize;  
         line-height:20px;
         font-size:20px;       
@@ -133,17 +133,17 @@ button.fd-slider-handle:focus::-moz-focus-inner { border-color: transparent; }
 /* black handle, glow */
 .fd-slider-hover .fd-slider-handle
         {
-        background:transparent url(../images/slider/slider-disabled-1.png) no-repeat 0px 0px;
+        background:transparent url(/assets/html5forms/slider/slider-disabled-1.png) no-repeat 0px 0px;
         }
 /* blue handle, no glow */
 .focused .fd-slider-handle
         {
-        background:transparent url(../images/slider/slider.png) no-repeat 0px 0px;
+        background:transparent url(/assets/html5forms/slider/slider.png) no-repeat 0px 0px;
         }
 /* blue handle glow */
 .focused.fd-slider-hover .fd-slider-handle
         {
-        background:transparent url(../images/slider/slider-1.png) no-repeat 0px 0px;
+        background:transparent url(/assets/html5forms/slider/slider-1.png) no-repeat 0px 0px;
         }
 body.slider-drag-vertical
         {
