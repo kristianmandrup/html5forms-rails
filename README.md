@@ -13,13 +13,7 @@ The following polyfill libraries are currently included:
 * [HTML5-Form-Shim](https://github.com/dsheiko/HTML5-Form-Shim)
 * [jQuery HTML5 form](http://www.matiasmancini.com.ar/jquery-plugin-ajax-form-validation-html5.html)
 
-Components from the article [how-to-build-cross-browser-html5-forms](http://net.tutsplus.com/tutorials/html-css-techniques/how-to-build-cross-browser-html5-forms/) are also included...
-
-* colorpicker
-* spinner
-* placeholder
-
-To use the _jQuery UI_ components as fallback, please use the [jquery-ui-rails](https://github.com/joliss/jquery-ui-rails) gem ;)
+Components from the article [how-to-build-cross-browser-html5-forms](http://net.tutsplus.com/tutorials/html-css-techniques/how-to-build-cross-browser-html5-forms/) are also included as _html5forms.fallback_
 
 Even [webforms2](https://github.com/westonruter/webforms2) is now included and should work with html5Widgets to display native javascript widgets ;)
 
@@ -34,6 +28,36 @@ If the polyfill library uses modernizr to detect HTML 5 feature availability:
 `gem 'modernizr-rails'`
 
 See [modernizr-rails](https://github.com/kristianmandrup/modernizr-rails)
+
+## html5forms.fallback
+
+See [how-to-build-cross-browser-html5-forms](http://net.tutsplus.com/tutorials/html-css-techniques/how-to-build-cross-browser-html5-forms/)
+
+* colorpicker
+* spinner
+* placeholder
+
+To use the _jQuery UI_ components as fallback, please use the [jquery-ui-rails](https://github.com/joliss/jquery-ui-rails) gem ;)
+
+### Configuration
+
+```text
+//= require html5forms.fallback
+//= require ui.spinner
+//= require jquery.placehold
+//= require colorpicker
+```
+
+`*.min` versions are also included ;)
+
+In your asset `application.css` manifest file:
+
+```css
+*/
+ * require colorpicker
+ * require ui.spinner
+*/
+```
 
 ## HTML5Forms.js
 
