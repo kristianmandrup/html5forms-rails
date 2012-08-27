@@ -1,6 +1,6 @@
 # HTML 5 forms for Rails
 
-This is a a collectionf of Polyfills for using HTML 5 forms with the Rails asset pipeline
+A collection of Polyfills for using HTML 5 forms with the Rails asset pipeline.
 
 All credits, copyright etc. belong to the original authors of each polyfill library.
 
@@ -84,8 +84,7 @@ Or the development version (easier to read/debug etc.).
 //= require html5forms/dev/html5Forms
 ```
 
-Note: jscalendar and modernizr have been removed in order to keep the filecount down.
-To use modernizr, please see `modernizr-rails` gem ;)
+Note: *jscalendar*, *webforms2* and *modernizr* have been removed in order to keep the filecount down.
 
 In your asset `application.css` manifest file, include the styles you need:
 
