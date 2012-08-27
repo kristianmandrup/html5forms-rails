@@ -1,0 +1,86 @@
+/* Form styles */
+.h5f
+{
+  margin: 20px auto;
+  width: 610px;
+}
+.h5f fieldset  
+{
+  margin: 0 0 20px;
+  padding: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.h5f ol
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.h5f li
+{
+  margin: 0 0 12px;
+  position: relative;
+}
+.h5f label, .h5f .label
+{
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+.h5f fieldset input,
+.h5f fieldset textarea,
+.h5f fieldset select
+{
+  background: #fff url(/assets/h5f/form_validation.png) 379px 24px no-repeat;
+  display: inline-block;
+  width: 371px;
+  border: 1px solid #fff;
+  padding: 3px 26px 3px 3px;
+  
+  -moz-transition: background-color 1s ease;
+  -webkit-transition: background-color 1s ease;
+  -o-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.h5f fieldset select   { width: 401px; padding: 3px; }
+.h5f fieldset #postcode  { padding: 3px; width: 400px; }
+  
+.h5f fieldset .radchecks input {
+  width: auto;
+}
+.h5f fieldset .radchecks label {
+  width: 105px;
+}
+    
+
+.h5f input::-webkit-input-placeholder  { color: #a9a9a9; }
+.h5f input:-moz-placeholder      { color: #a9a9a9; }
+
+/* Enhanced error styling */
+.h5f input.error
+{
+  background-color: pink; 
+  background-position: 379px 3px;
+  outline: none; 
+}
+.h5f input.required
+{
+  background-color: #fff; 
+  background-position: 379px -29px;
+}
+.h5f input.valid
+{ 
+  background-color: #fff;
+  background-position: 379px -61px;
+}
+.h5f fieldset input:required:valid
+{ 
+  background-color: #fff;
+  background-position: 379px -61px;
+}
