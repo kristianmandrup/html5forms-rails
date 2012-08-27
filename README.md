@@ -17,6 +17,13 @@ Components from the article [how-to-build-cross-browser-html5-forms](http://net.
 
 Even [webforms2](https://github.com/westonruter/webforms2) is now included and should work with html5Widgets to display native javascript widgets ;)
 
+To enable Formdata for older browsers, the followingare included:
+
+* formdata.js
+* jquery.form.js
+
+See [html5-formdata](https://github.com/francois2metz/html5-formdata)
+
 ### Install
 
 Simply add to Gemfile and bundle:
