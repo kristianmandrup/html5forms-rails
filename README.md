@@ -17,7 +17,7 @@ Components from the article [how-to-build-cross-browser-html5-forms](http://net.
 
 Even [webforms2](https://github.com/westonruter/webforms2) is now included and should work with html5Widgets to display native javascript widgets ;)
 
-To enable Formdata for older browsers, the followingare included:
+To enable Formdata for older browsers, the following libs are included:
 
 * formdata.js
 * jquery.form.js
