@@ -13,6 +13,16 @@ The following polyfill libraries are currently included:
 * [HTML5-Form-Shim](https://github.com/dsheiko/HTML5-Form-Shim)
 * [jQuery HTML5 form](http://www.matiasmancini.com.ar/jquery-plugin-ajax-form-validation-html5.html)
 
+Components from the article [how-to-build-cross-browser-html5-forms](http://net.tutsplus.com/tutorials/html-css-techniques/how-to-build-cross-browser-html5-forms/) are also included...
+
+* colorpicker
+* spinner
+* placeholder
+
+To use the _jQuery UI_ components as fallback, please use the [jquery-ui-rails](https://github.com/joliss/jquery-ui-rails) gem ;)
+
+Even [webforms2](https://github.com/westonruter/webforms2) is now included and should work with html5Widgets to display native javascript widgets ;)
+
 ### Install
 
 Simply add to Gemfile and bundle:
@@ -70,7 +80,7 @@ the version of webforms2 that is included in this package does not
 include support for the depricated repetition module -- it will be 
 put back in as a separate module at a later date.
 
-## Configuration
+### Configuration
 
 You can choose to use either the minified js:
 
@@ -84,7 +94,13 @@ Or the development version (easier to read/debug etc.).
 //= require html5forms/dev/html5Forms
 ```
 
-Note: *jscalendar*, *webforms2* and *modernizr* have been removed in order to keep the filecount down.
+#### Notes
+
+* _jscalendar_ and _modernizr_ have been removed from html5forms in order to keep the filecount down.
+
+* Html5forms for Rails has not yet been tested. 
+
+I have so far done a search and replace on `html5Forms.js`, substituting `../shared/js/` with `html5forms` but not sure how it resolves with respect to the asset pipeline. Please help debug and fix this!
 
 In your asset `application.css` manifest file, include the styles you need:
 
@@ -99,7 +115,7 @@ In your asset `application.css` manifest file, include the styles you need:
 
 See [H5F](https://github.com/ryanseddon/H5F)
 
-## Configuration
+### Configuration
 
 You can choose to use either the minified js:
 
