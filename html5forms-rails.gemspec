@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
-  s.date = "2012-08-28"
+  s.date = "2013-08-22"
   s.description = "Use the power of html5 forms even in old browsers using polyfills :)"
   s.email = "kmandrup@gmail.com"
   s.extra_rdoc_files = [
@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "demos/html5-form-demo.html",
     "html5forms-rails.gemspec",
-    "lib/html5forms.rb",
+    "lib/html5forms-rails.rb",
     "vendor/assets/images/colorpicker/blank.gif",
     "vendor/assets/images/colorpicker/colorpicker_background.png",
     "vendor/assets/images/colorpicker/colorpicker_hex.png",
@@ -116,11 +116,11 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/kristianmandrup/jqtools-rails"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.24"
+  s.rubygems_version = "2.0.3"
   s.summary = "HTML5forms packages for Rails asset pipeline"
 
   if s.respond_to? :specification_version then
-    s.specification_version = 3
+    s.specification_version = 4
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 2.8.0"])
